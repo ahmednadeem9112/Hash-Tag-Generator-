@@ -1,0 +1,68 @@
+body{
+margin: 0;
+padding: 0;
+text-align: center;
+align-content: center;
+background-color: #D6F7DF;
+}
+
+.header{
+font-size: 25px;
+color: #a78fd4;
+font-family: 'Lora', serif;
+padding-top: 100px;
+}
+.input {
+padding-top: 4rem;
+text-align: center;
+align-content: center;
+border: none;
+}
+
+input  {
+padding: 1rem;
+    border: none;
+    font-size: 24px;
+    background: transparent;
+    border-bottom: 1px solid #a78fd4;
+}
+
+#output-h2{
+padding-right: 30rem;
+animation-name: move;
+animation-duration: 1.5s;
+font-size: 30px;
+}
+
+
+button{
+font-size: 20px;
+background-color: #fff;
+border-radius: 8px;
+}
+
+
+
+@keyframes move {
+0%,20% {
+    opacity: 0;
+    transform: translateY(-50px);
+}
+100% {
+opacity: 1;
+transform: translateY(0);
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
